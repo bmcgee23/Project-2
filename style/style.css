@@ -121,3 +121,59 @@ h4
 	padding-right:0.1em;
 }
 
+
+p
+{
+	font-size: 1.25em;
+	
+}
+
+.hold
+{
+	border-style: solid;
+	background-color: rgba(135,96,150,0.3);
+	width: 15%;
+	padding-left:1.05%;
+	padding-right:1.05%;
+	text-align: center;
+	line-height: 1.7em;
+}
+
+.signup 
+{
+  
+    -webkit-transition-duration: 0.7s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+	border-radius: 20%;
+	border-style: solid;
+	border-color: white;
+}
+
+
+a
+{
+	text-decoration:none;
+}
+
+strong
+{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.iconic
+{
+	width:20%;
+	position: relative;
+	padding-top: 2em;
+	float:left;
+}
+
+.announced
+{
+	position: relative;
+	padding-top: 2em;
+	float: left;
+}
+
