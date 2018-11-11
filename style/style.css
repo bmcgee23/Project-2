@@ -49,3 +49,13 @@ table {
 }
 
 /*End of Normalize*/
+
+
+
+.collapsed {
+  background-color: #777;
+  color: #fff;
+  text-align: left;
+  outline: none;
+}
+
