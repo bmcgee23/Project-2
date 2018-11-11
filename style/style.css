@@ -64,19 +64,19 @@ table {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
+  background-color: #fff;
 }
 
 .logo
 {
-	height: 100px;
-	width: 100px;
+	height: 90px;
+	width: 90px;
 }
 
 .topnav 
 {
   overflow: hidden;
-  background-color: #0284F0;
+  background-color: green;
 }
 
 @media screen and (max-width: 600px) 
@@ -86,3 +86,21 @@ table {
     display: block;
   }
 }
+
+
+body
+{
+	background-color: orange;
+	color:	#F59EEE;
+	line-height: 1.5em;
+	margin: 1em;
+}
+
+h1
+{
+	font-size: 1.56em;	
+	padding-top: 1.3em;
+	color: black;
+	font-weight: bold;
+}
+
