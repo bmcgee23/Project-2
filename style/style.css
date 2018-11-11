@@ -59,3 +59,30 @@ table {
   outline: none;
 }
 
+.contented
+{
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
+.logo
+{
+	height: 100px;
+	width: 100px;
+}
+
+.topnav 
+{
+  overflow: hidden;
+  background-color: #0284F0;
+}
+
+@media screen and (max-width: 600px) 
+{
+	{
+    float: right;
+    display: block;
+  }
+}
