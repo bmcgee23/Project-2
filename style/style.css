@@ -52,11 +52,16 @@ table {
 
 
 
-.collapsed {
+.collapsed 
+{
   background-color: #777;
   color: #fff;
   text-align: left;
   outline: none;
+	background-image:url("../images/Clock.jpg");
+  padding:800px 0px 800px 0px;
+  background-repeat: no-repeat;
+background-size: auto;
 }
 
 .contented
@@ -148,6 +153,10 @@ p
 	border-radius: 20%;
 	border-style: solid;
 	border-color: white;
+	background-image:url("../images/americas.jpg");
+  padding:800px 0px 800px 0px;
+  background-repeat: no-repeat;
+background-size: auto;
 }
 
 
