@@ -48,9 +48,77 @@ table {
   height: 80px;
   padding: 20px;
 }
+.imag1{
+  width: 80px;
+  height: 80px;
+  padding: 20px;
+}
+.imag3{
+  width: 80px;
+  height: 80px;
+  padding: 20px;
+}
+.imag4{
+  width: 80px;
+  height: 80px;
+  padding: 20px;
+}
+.imag1:hover{
+	background-color: gray;
+	transition-property: background color, width;
+	transition-duration: 3.2s;
+	-webkit-transform: scale(0.8) skewX(10deg);
+}
+.imag2:hover{
+	background-color: gray;
+	transition-property: background color, width;
+	transition-duration: 3.2s;
+	-webkit-transform: scale(0.8) skewX(10deg);
+}
+.imag3:hover{
+	background-color: gray;
+	transition-property: background color, width;
+	transition-duration: 3.2s;
+	-webkit-transform: scale(0.8) skewX(10deg);
+}
+.imag4:hover{
+	background-color: gray;
+	transition-property: background color, width;
+	transition-duration: 3.2s;
+	-webkit-transform: scale(0.8) skewX(10deg);
+}
+.imag2{
+  width: 80px;
+  height: 80px;
+  padding: 20px;
+}
 .navigation
 {
 	margin-left: 1000px;
+}
+.layer
+{
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+.navigation:hover .layer,
+.navigation:active .layer{
+	opacity:1;
+}
+.navigation .text1{
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	color:blue;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 }
 .logo
 {
