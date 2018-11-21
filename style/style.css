@@ -43,23 +43,14 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-.collapsed 
-{
-  background-color: #777;
-  color: #fff;
-  text-align: left;
-  outline: none;
-	background-image:url("../images/Clock.jpg");
-  padding:800px 0px 800px 0px;
-  background-repeat: no-repeat;
-background-size: auto;
+.imag{
+  width: 80px;
+  height: 80px;
+  padding: 20px;
 }
-.contented
+.navigation
 {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #fff;
+	margin-left: 1000px;
 }
 .logo
 {
@@ -70,7 +61,6 @@ background-size: auto;
 .topnav 
 {
   overflow: hidden;
-  background-color: green;
 }
 
 @media screen and (max-width: 600px) 
@@ -160,3 +150,4 @@ strong
 	padding-top: 2em;
 	float: left;
 }
+
