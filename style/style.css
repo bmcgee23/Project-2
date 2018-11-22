@@ -52,7 +52,8 @@ table {
   width: 80px;
   height: 80px;
   padding: 20px;
-  margin-left: 310px;
+  margin-left: 340px;
+  text-align: center;
 }
 .imag3{
   width: 80px;
@@ -65,8 +66,40 @@ table {
   height: 80px;
   padding: 20px;
   margin-left: 40px;
-  margin-right: 473px;
-
+  margin-right: 443px;
+}
+.text1{
+	text-align: center;
+	padding: 5px;
+	padding-bottom: 40px;
+	font-size: 20px;
+    font-family:'Brush Script MT', cursive;
+    background-color: ivory;
+}
+#text1sub
+{
+	padding: 5px;
+}
+#text2sub
+{
+	padding-top: 20px;
+}
+.text3
+{
+text-align: center;
+padding: 20px;
+    font-family:'Brush Script MT', cursive;
+    font-size: 20px;
+}
+iframe{
+	width: 400px;
+	height: 200px;
+}
+.text2{
+	padding-top: 20px;
+	padding-left: 120px;
+	padding-right: 120px;
+	font-size: 18px;
 }
 .imag1:hover{
 	background-color: gray;
@@ -108,16 +141,45 @@ table {
 	width: 120px;
 
 }
-
+.collapsed{
+  padding-top: 150px;
+  font-family:'Brush Script MT', cursive;
+  text-align:  center;
+  font-size: 25px;
+  color: black;
+}
 .topnav 
 {
   overflow: hidden;
-  padding-top: 100px;
-  width: 100%;
+  width: 100	
+  padding:20px;
+  text-align: center;
+  font-family:'Brush Script MT', cursive;
+}
+.text
+{
+	padding: 30px;
+	font-size: 35px;
+    background-color: ivory;
 }
 .bottomnav
 {
-	padding:20px;
+	padding-top: 30px;
+	text-align: center;
+}
+button {
+  background-color: #4CAF50;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  padding: 1%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+  margin-top: 3%;
+  width: 30%;
 }
 @media screen and (max-width: 600px) 
 {
