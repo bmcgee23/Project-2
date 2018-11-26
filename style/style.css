@@ -99,7 +99,7 @@ iframe{
 	padding-top: 20px;
 	padding-left: 120px;
 	padding-right: 120px;
-	font-size: 18px;
+	font-size: 19px;
 }
 .imag1:hover{
 	background-color: gray;
@@ -143,6 +143,7 @@ iframe{
 }
 .collapsed{
   padding-top: 150px;
+  padding-bottom: 30px;
   font-family:'Brush Script MT', cursive;
   text-align:  center;
   font-size: 25px;
@@ -162,10 +163,46 @@ iframe{
 	font-size: 35px;
     background-color: ivory;
 }
+#contented2{
+	font-size: 25px;
+    background-color: ivory;
+}
+
+#contented3{
+	font-size: 20px;
+    background-color: ivory;
+ 	padding: 15px;
+}
 .bottomnav
 {
-	padding-top: 30px;
 	text-align: center;
+    border-radius: 80px;
+}
+#li1{
+	padding-top: 30px;
+    background-color: ivory;
+	font-size: 20px;
+}
+#li2{
+	padding-top: 30px;
+    background-color: ivory;
+	font-size: 20px;
+}
+#li3{
+	padding-top: 30px;
+    background-color: ivory;
+	font-size: 20px;
+}
+#li4{
+	padding-top: 30px;
+    background-color: ivory;
+	font-size: 20px;
+}
+#li5{
+	padding-top: 30px;
+	padding-bottom: 40px;
+    background-color: ivory;
+	font-size: 20px;
 }
 button {
   background-color: #4CAF50;
