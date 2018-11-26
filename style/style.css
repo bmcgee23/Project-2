@@ -83,6 +83,7 @@ table {
 #text2sub
 {
 	padding-top: 20px;
+    line-height: 1.4em;
 }
 .text3
 {
@@ -172,6 +173,7 @@ iframe{
 	font-size: 20px;
     background-color: ivory;
  	padding: 15px;
+    line-height: 1.4em;
 }
 .bottomnav
 {
@@ -179,27 +181,27 @@ iframe{
     border-radius: 80px;
 }
 #li1{
-	padding-top: 30px;
+	padding-top: 25px;
     background-color: ivory;
 	font-size: 20px;
 }
 #li2{
-	padding-top: 30px;
+	padding-top: 25px;
     background-color: ivory;
 	font-size: 20px;
 }
 #li3{
-	padding-top: 30px;
+	padding-top: 25px;
     background-color: ivory;
 	font-size: 20px;
 }
 #li4{
-	padding-top: 30px;
+	padding-top: 25px;
     background-color: ivory;
 	font-size: 20px;
 }
 #li5{
-	padding-top: 30px;
+	padding-top: 25px;
 	padding-bottom: 40px;
     background-color: ivory;
 	font-size: 20px;
