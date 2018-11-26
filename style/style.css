@@ -177,8 +177,10 @@ iframe{
 }
 .bottomnav
 {
+	max-width: 100%;
+	max-height: 100%;
 	text-align: center;
-    border-radius: 80px;
+  z-index: 0;
 }
 #li1{
 	padding-top: 25px;
@@ -206,10 +208,10 @@ iframe{
     background-color: ivory;
 	font-size: 20px;
 }
-.bottomna{
-	height: 100px;
-	width: 100px;
-    object-fit: contain;
+#bottomna{
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
 }
 button {
   background-color: #4CAF50;
