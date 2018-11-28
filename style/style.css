@@ -182,30 +182,53 @@ iframe{
 	text-align: center;
     z-index: 0;
 }
+#contact1{
+	padding-top: 30px;
+	padding-bottom: 25px;
+	text-align: center;
+    font-size: 30px;
+
+}
 .contact{
-  background-color: #E8E8E8;
-  font-size: 0.988vw;
-  border-radius: 6px;
-  padding: 1%;
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-bottom: 20%;
+  background-color: white;
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+  border-radius: 16px;
   margin-left: 34%;
   width: 30%;
 }
+input {
+  border: 0;
+  background-color: #EEE9E9;
+  border-radius: 6px;
+  padding: 10%;
+  margin-bottom: 5%;
+  width: 100%;
+}
+label {
+  font-size: 20px;
+  display: inline-block;
+  width: 20%;
+  text-align: right;
+}
+textarea{
+	height: 90px;
+}
 .body1{
   background-image: url("../images/contact.jpg");
+  background-attachment: fixed;
+  background-position: top center;
 }
-button {
+.button {
   border: none;
   border-radius: 20px;
   margin-top: 5%;
   margin-bottom: 10%;
+  margin-left: 37%;
   width: 30%;
-  padding: 3%;
-  background-color: #303030;
+  background-color: green;
   font-weight: bold;
-  color: aliceblue;
+  text-align: center;
 }
 #li1{
 	padding-top: 25px;
